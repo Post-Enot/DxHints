@@ -1,8 +1,8 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace PostEnot.DxHints
 {
+    [AddComponentMenu(ComponentMenuPathes.DefaultPath + "Hint Target Bounds")]
     public class HintTargetBounds : HintTarget
     {
         #region Inspector

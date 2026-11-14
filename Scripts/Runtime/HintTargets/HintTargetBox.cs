@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace PostEnot.DxHints
 {
+    [AddComponentMenu(ComponentMenuPathes.DefaultPath + "Hint Target Box")]
     public class HintTargetBox : HintTarget
     {
         #region Inspector

@@ -2,6 +2,7 @@
 
 namespace PostEnot.DxHints
 {
+    [AddComponentMenu(ComponentMenuPathes.DefaultPath + "Hint Target Point")]
     public sealed class HintTargetPoint : HintTarget
     {
         #region Inspector
